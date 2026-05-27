@@ -28,8 +28,6 @@ https://github.com/lingxiaoyiyu-hub/WritingStudio-3.3.0/releases
 
 ![小说写作工作台](docs/screenshot-novel-writing.png)
 
-### AI 创意写作
-
 ![AI 创意写作](docs/screenshot-writing.png)
 
 ### 自媒体写作
