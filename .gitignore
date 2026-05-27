@@ -1,0 +1,11 @@
+*.zip
+*.exe
+*.7z
+*.rar
+dist/
+build/
+*.log
+*.db
+.env
+encryption.key
+chrome-profile/
