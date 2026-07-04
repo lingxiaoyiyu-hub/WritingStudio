@@ -1,4 +1,4 @@
-# WritingStudio 3.3.0
+# WritingStudio 3.5.0
 
 WritingStudio 是一款面向中文小说创作的本地 AI 写作工作台，也支持自媒体文章、选题灵感和内容改写。
 
