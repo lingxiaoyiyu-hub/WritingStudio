@@ -1,0 +1,54 @@
+# 默认标签
+# 格式参考：https://github.com/actions/labeler
+
+- name: "bug"
+  color: "d73a4a"
+  description: "Bug 报告，软件运行出现问题"
+
+- name: "enhancement"
+  color: "a2eeef"
+  description: "功能增强或新功能建议"
+
+- name: "documentation"
+  color: "0075ca"
+  description: "文档相关的改进"
+
+- name: "question"
+  color: "d876e3"
+  description: "使用疑问或需要帮助"
+
+- name: "good first issue"
+  color: "7057ff"
+  description: "适合新手贡献的任务"
+
+- name: "help wanted"
+  color: "008672"
+  description: "需要社区帮助"
+
+- name: "needs-triage"
+  color: "fbca04"
+  description: "需要进一步分类和评估"
+
+- name: "wontfix"
+  color: "ffffff"
+  description: "不会处理或修复的问题"
+
+- name: "duplicate"
+  color: "cfd3d7"
+  description: "重复的问题"
+
+- name: "invalid"
+  color: "e4e669"
+  description: "不符合要求的 Issue"
+
+- name: "security"
+  color: "ee0701"
+  description: "安全相关问题"
+
+- name: "performance"
+  color: "d4c5f9"
+  description: "性能相关的问题或优化"
+
+- name: "ui/ux"
+  color: "bfd4f2"
+  description: "界面或用户体验相关"

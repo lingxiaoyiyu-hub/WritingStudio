@@ -1,0 +1,30 @@
+name: Release Draft
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  draft-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate Release Notes
+        id: release_notes
+        run: |
+          echo "notes<<EOF" >> $GITHUB_OUTPUT
+          echo "## 发布说明" >> $GITHUB_OUTPUT
+          echo "" >> $GITHUB_OUTPUT
+          echo "请参阅 [CHANGELOG.md](CHANGELOG.md) 查看完整变更日志。" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Create Draft Release
+        uses: softprops/action-gh-release@v1
+        with:
+          draft: true
+          body: ${{ steps.release_notes.outputs.notes }}
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

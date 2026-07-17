@@ -1,17 +1,11 @@
 # These are supported funding model platforms
-# 请取消注释并填写你希望支持的平台
+# 支持本项目请通过以下方式
+# 如需要启用赞助，请取消对应行的注释并填写你的账号
 
 # github: [lingxiaoyiyu-hub]
+# afdian: your-afdian-id
+# buy_me_a_coffee: your-username
 # custom: ["https://example.com/sponsor"]
-# patreon: # Replace with your Patreon username
-# open_collective: # Replace with your Open Collective username
-# ko_fi: # Replace with your Ko-fi username
-# tidelift: # Replace with your Tidelift username
-# community_bridge: # Replace with your Community Bridge username
-# liberapay: # Replace with your Liberapay username
-# issuehunt: # Replace with your Issuehunt username
-# otechie: # Replace with your Otechie username
-# lfx_crowdfunding: # Replace with your LFX Crowdfunding username
-# buy_me_a_coffee: # Replace with your Buy Me a Coffee username
-# thanks_dev: # Replace with your thanks.dev username
-# custom: # Replace with up to 4 custom sponsor URLs
+
+github: [lingxiaoyiyu-hub]
+
