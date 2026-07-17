@@ -11,7 +11,13 @@
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey?style=for-the-badge)](#下载安装)
 [![Release](https://img.shields.io/github/v/release/lingxiaoyiyu-hub/WritingStudio?style=for-the-badge&label=latest%20release)](https://github.com/lingxiaoyiyu-hub/WritingStudio/releases)
 [![Downloads](https://img.shields.io/github/downloads/lingxiaoyiyu-hub/WritingStudio/total?style=for-the-badge&label=downloads)](https://github.com/lingxiaoyiyu-hub/WritingStudio/releases)
-[![Issues Welcome](https://img.shields.io/badge/issues-welcome-brightgreen?style=for-the-badge)](https://github.com/lingxiaoyiyu-hub/WritingStudio/issues)
+[![Issues Open](https://img.shields.io/github/issues/lingxiaoyiyu-hub/WritingStudio?style=for-the-badge&label=issues)](https://github.com/lingxiaoyiyu-hub/WritingStudio/issues)
+[![Stars](https://img.shields.io/github/stars/lingxiaoyiyu-hub/WritingStudio?style=for-the-badge&label=stars)](https://github.com/lingxiaoyiyu-hub/WritingStudio/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/lingxiaoyiyu-hub/WritingStudio?style=for-the-badge&label=last%20commit)](https://github.com/lingxiaoyiyu-hub/WritingStudio/commits/main)
+[![Contributors](https://img.shields.io/github/contributors/lingxiaoyiyu-hub/WritingStudio?style=for-the-badge&label=contributors)](https://github.com/lingxiaoyiyu-hub/WritingStudio/graphs/contributors)
+[![Discussions](https://img.shields.io/badge/discussions-welcome-9cf?style=for-the-badge)](https://github.com/lingxiaoyiyu-hub/WritingStudio/discussions)
+[![English](https://img.shields.io/badge/README-English-blue?style=for-the-badge)](README_EN.md)
+[![简体中文](https://img.shields.io/badge/README-简体中文-red?style=for-the-badge)](README.md)
 
 <br>
 
@@ -312,10 +318,35 @@ AI 润色 / 钩子 / 质检 反复打磨
 
 ---
 
+## ⭐ Star 历史
+
+<div align="center">
+
+[![Star History Chart](https://api.star-history.com/svg?repos=lingxiaoyiyu-hub/WritingStudio&type=Date)](https://star-history.com/#lingxiaoyiyu-hub/WritingStudio&Date)
+
+</div>
+
+---
+
 <div align="center">
 
 **如果这个项目对你有帮助，欢迎 Star ⭐ 支持一下**
 
+<br>
+
+<a href="https://github.com/lingxiaoyiyu-hub/WritingStudio/stargazers">
+  <img src="https://img.shields.io/github/stars/lingxiaoyiyu-hub/WritingStudio?style=social" alt="Stars">
+</a>
+&nbsp;
+<a href="https://github.com/lingxiaoyiyu-hub/WritingStudio/network/members">
+  <img src="https://img.shields.io/github/forks/lingxiaoyiyu-hub/WritingStudio?style=social" alt="Forks">
+</a>
+&nbsp;
+<a href="https://github.com/lingxiaoyiyu-hub/WritingStudio/watchers">
+  <img src="https://img.shields.io/github/watchers/lingxiaoyiyu-hub/WritingStudio?style=social" alt="Watchers">
+</a>
+
+<br>
 <br>
 
 Made with ❤️ for Chinese novel writers

@@ -1,0 +1,17 @@
+# CODEOWNERS 文件
+# https://docs.github.com/zh/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# 默认所有者
+* @lingxiaoyiyu-hub
+
+# 文档相关
+/README.md @lingxiaoyiyu-hub
+/CHANGELOG.md @lingxiaoyiyu-hub
+/SECURITY.md @lingxiaoyiyu-hub
+/CONTRIBUTING.md @lingxiaoyiyu-hub
+/CODE_OF_CONDUCT.md @lingxiaoyiyu-hub
+/SUPPORT.md @lingxiaoyiyu-hub
+/docs/ @lingxiaoyiyu-hub
+
+# GitHub 配置
+/.github/ @lingxiaoyiyu-hub

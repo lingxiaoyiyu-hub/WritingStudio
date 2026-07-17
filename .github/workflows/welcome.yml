@@ -1,0 +1,63 @@
+name: Welcome New Contributor
+
+on:
+  pull_request_target:
+    types: [opened]
+  issues:
+    types: [opened]
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+      issues: write
+    steps:
+      - name: Welcome for PR
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `👋 感谢你提交第一个 Pull Request！欢迎成为 WritingStudio 的贡献者。
+
+            我们会尽快审阅你的 PR。在等待期间，请：
+
+            - ✅ 确保已阅读 [贡献指南](https://github.com/${{ github.repository }}/blob/main/CONTRIBUTING.md)
+            - ✅ 检查 PR 描述是否完整
+            - ✅ 确认 CI 检查通过
+
+            感谢你的支持！💖`
+            });
+
+      - name: Welcome for Issue
+        if: github.event_name == 'issues'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            // 仅对首次提 Issue 的用户欢迎
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              creator: context.payload.issue.user.login,
+              state: 'all'
+            });
+            if (issues.length === 1) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: `👋 欢迎你首次在 WritingStudio 提 Issue！
+
+            感谢你的反馈。我们会尽快查看并回复。在此之前，你可以：
+
+            - 📖 查看 [使用文档](https://github.com/${{ github.repository }}/blob/main/docs/usage.md)
+            - ❓ 浏览 [常见问题](https://github.com/${{ github.repository }}/blob/main/docs/faq.md)
+            - 💬 在 [Discussions](https://github.com/${{ github.repository }}/discussions) 参与讨论
+
+            感谢你的支持！💖`
+              });
+            }

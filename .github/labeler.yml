@@ -1,0 +1,37 @@
+# Labeler 配置
+# https://github.com/actions/labeler
+
+# 文档相关
+documentation:
+  - changed-files:
+      - any-glob-to-any-file:
+          - '*.md'
+          - 'docs/**'
+          - '*.cff'
+
+# GitHub 配置
+github-config:
+  - changed-files:
+      - any-glob-to-any-file:
+          - '.github/**'
+          - '.gitignore'
+
+# 截图更新
+ui/ux:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'docs/screenshot-*.png'
+          - 'docs/*.svg'
+
+# 许可证相关
+license:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'LICENSE'
+          - 'CITATION.cff'
+
+# 安全相关
+security:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'SECURITY.md'
