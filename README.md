@@ -318,16 +318,6 @@ AI 润色 / 钩子 / 质检 反复打磨
 
 ---
 
-## ⭐ Star 历史
-
-<div align="center">
-
-[![Star History Chart](https://api.star-history.com/svg?repos=lingxiaoyiyu-hub/WritingStudio&type=Date)](https://star-history.com/#lingxiaoyiyu-hub/WritingStudio&Date)
-
-</div>
-
----
-
 <div align="center">
 
 **如果这个项目对你有帮助，欢迎 Star ⭐ 支持一下**

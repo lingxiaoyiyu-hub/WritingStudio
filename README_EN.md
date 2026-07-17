@@ -233,16 +233,6 @@ The installers and executables in this repository also follow the MIT license; s
 
 ---
 
-## ⭐ Star History
-
-<div align="center">
-
-[![Star History Chart](https://api.star-history.com/svg?repos=lingxiaoyiyu-hub/WritingStudio&type=Date)](https://star-history.com/#lingxiaoyiyu-hub/WritingStudio&Date)
-
-</div>
-
----
-
 <div align="center">
 
 **If this project helps you, please consider giving it a Star ⭐**
