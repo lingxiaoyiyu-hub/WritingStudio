@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 <img src="docs/logo.svg" alt="WritingStudio Logo" width="120" height="120">
 
@@ -6,12 +6,12 @@
 
 ### 面向中文长篇小说的本地 AI 写作工作台
 
-[![Version](https://img.shields.io/badge/version-3.5.0-blue?style=for-the-badge)](https://github.com/lingxiaoyiyu-hub/WritingStudio-3.5.0/releases)
+[![Version](https://img.shields.io/badge/version-3.5.0-blue?style=for-the-badge)](https://github.com/lingxiaoyiyu-hub/WritingStudio/releases)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey?style=for-the-badge)](#下载安装)
-[![Release](https://img.shields.io/github/v/release/lingxiaoyiyu-hub/WritingStudio-3.5.0?style=for-the-badge&label=latest%20release)](https://github.com/lingxiaoyiyu-hub/WritingStudio-3.5.0/releases)
-[![Downloads](https://img.shields.io/github/downloads/lingxiaoyiyu-hub/WritingStudio-3.5.0/total?style=for-the-badge&label=downloads)](https://github.com/lingxiaoyiyu-hub/WritingStudio-3.5.0/releases)
-[![Issues Welcome](https://img.shields.io/badge/issues-welcome-brightgreen?style=for-the-badge)](https://github.com/lingxiaoyiyu-hub/WritingStudio-3.5.0/issues)
+[![Release](https://img.shields.io/github/v/release/lingxiaoyiyu-hub/WritingStudio?style=for-the-badge&label=latest%20release)](https://github.com/lingxiaoyiyu-hub/WritingStudio/releases)
+[![Downloads](https://img.shields.io/github/downloads/lingxiaoyiyu-hub/WritingStudio/total?style=for-the-badge&label=downloads)](https://github.com/lingxiaoyiyu-hub/WritingStudio/releases)
+[![Issues Welcome](https://img.shields.io/badge/issues-welcome-brightgreen?style=for-the-badge)](https://github.com/lingxiaoyiyu-hub/WritingStudio/issues)
 
 <br>
 
@@ -150,7 +150,7 @@ WritingStudio 不是"一键生成一段文字"的玩具工具，而是为长篇�
 
 ### 从 Release 下载
 
-请前往 [Releases 页面](https://github.com/lingxiaoyiyu-hub/WritingStudio-3.5.0/releases) 下载最新版本：
+请前往 [Releases 页面](https://github.com/lingxiaoyiyu-hub/WritingStudio/releases) 下载最新版本：
 
 - `WritingStudio3.5.0.zip` —— 当前发行版安装包
 
@@ -236,7 +236,7 @@ AI 润色 / 钩子 / 质检 反复打磨
 支持 Windows、macOS 和 Linux 三大主流桌面平台。
 </details>
 
-更多问题请查看 [FAQ 文档](docs/faq.md) 或在 [Discussions](https://github.com/lingxiaoyiyu-hub/WritingStudio-3.5.0/discussions) 中提问。
+更多问题请查看 [FAQ 文档](docs/faq.md) 或在 [Discussions](https://github.com/lingxiaoyiyu-hub/WritingStudio/discussions) 中提问。
 
 ---
 
@@ -280,9 +280,9 @@ AI 润色 / 钩子 / 质检 反复打磨
 
 | 类型 | 途径 |
 | :--- | :--- |
-| 🐛 **Bug 反馈** | 提交 [Issue](https://github.com/lingxiaoyiyu-hub/WritingStudio-3.5.0/issues/new?template=bug_report.yml) |
-| 💡 **功能建议** | 提交 [Issue](https://github.com/lingxiaoyiyu-hub/WritingStudio-3.5.0/issues/new?template=feature_request.yml) |
-| ❓ **使用提问** | 在 [Discussions](https://github.com/lingxiaoyiyu-hub/WritingStudio-3.5.0/discussions) 中讨论 |
+| 🐛 **Bug 反馈** | 提交 [Issue](https://github.com/lingxiaoyiyu-hub/WritingStudio/issues/new?template=bug_report.yml) |
+| 💡 **功能建议** | 提交 [Issue](https://github.com/lingxiaoyiyu-hub/WritingStudio/issues/new?template=feature_request.yml) |
+| ❓ **使用提问** | 在 [Discussions](https://github.com/lingxiaoyiyu-hub/WritingStudio/discussions) 中讨论 |
 | 🔒 **安全漏洞** | 按 [SECURITY.md](SECURITY.md) 中的流程私下报告 |
 | 📝 **更新记录** | 查看 [CHANGELOG.md](CHANGELOG.md) |
 

@@ -1,4 +1,4 @@
-# 支持与帮助
+﻿# 支持与帮助
 
 感谢你使用 WritingStudio！如果你在使用过程中需要帮助，以下是几种获取支持的方式。
 
@@ -21,7 +21,7 @@
 
 ### Discussions 论坛
 
-如果你有使用问题、写作经验分享或想与其他用户交流，欢迎前往 [GitHub Discussions](https://github.com/lingxiaoyiyu-hub/WritingStudio-3.5.0/discussions)。
+如果你有使用问题、写作经验分享或想与其他用户交流，欢迎前往 [GitHub Discussions](https://github.com/lingxiaoyiyu-hub/WritingStudio/discussions)。
 
 可以在以下分类发帖：
 
@@ -34,7 +34,7 @@
 
 ## 🐛 报告 Bug
 
-如果你发现了软件 Bug，请通过 [GitHub Issues](https://github.com/lingxiaoyiyu-hub/WritingStudio-3.5.0/issues/new?template=bug_report.yml) 提交。
+如果你发现了软件 Bug，请通过 [GitHub Issues](https://github.com/lingxiaoyiyu-hub/WritingStudio/issues/new?template=bug_report.yml) 提交。
 
 为了帮助我们快速定位问题，请尽量提供：
 
@@ -49,7 +49,7 @@
 
 ## 💡 功能建议
 
-有好的想法？欢迎通过 [GitHub Issues](https://github.com/lingxiaoyiyu-hub/WritingStudio-3.5.0/issues/new?template=feature_request.yml) 提交功能建议。
+有好的想法？欢迎通过 [GitHub Issues](https://github.com/lingxiaoyiyu-hub/WritingStudio/issues/new?template=feature_request.yml) 提交功能建议。
 
 好的功能建议通常包含：
 

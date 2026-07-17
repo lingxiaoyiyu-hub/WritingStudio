@@ -1,4 +1,4 @@
-# 常见问题 FAQ
+﻿# 常见问题 FAQ
 
 本文档整理了 WritingStudio 使用过程中的常见问题与解答。
 
@@ -181,6 +181,6 @@ API Key 存储在本地配置中，不会上传到任何第三方服务器。请
 
 如果以上 FAQ 没有解决你的问题，欢迎：
 
-- 在 [Discussions](https://github.com/lingxiaoyiyu-hub/WritingStudio-3.5.0/discussions) 中提问
-- 提交 [Issue](https://github.com/lingxiaoyiyu-hub/WritingStudio-3.5.0/issues) 反馈 Bug
+- 在 [Discussions](https://github.com/lingxiaoyiyu-hub/WritingStudio/discussions) 中提问
+- 提交 [Issue](https://github.com/lingxiaoyiyu-hub/WritingStudio/issues) 反馈 Bug
 - 查看 [更新日志](../CHANGELOG.md) 了解最新变化

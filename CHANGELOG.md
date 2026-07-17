@@ -1,4 +1,4 @@
-# 更新日志
+﻿# 更新日志
 
 本文件记录 WritingStudio 公开发行版的版本变更历史。
 
@@ -54,7 +54,7 @@
 - **次版本号（Minor）**：向下兼容的新功能
 - **修订号（Patch）**：向下兼容的问题修复
 
-完整版本列表请见 [Releases](https://github.com/lingxiaoyiyu-hub/WritingStudio-3.5.0/releases)。
+完整版本列表请见 [Releases](https://github.com/lingxiaoyiyu-hub/WritingStudio/releases)。
 
-[3.5.0]: https://github.com/lingxiaoyiyu-hub/WritingStudio-3.5.0/releases/tag/v3.5.0
-[3.3.0]: https://github.com/lingxiaoyiyu-hub/WritingStudio-3.5.0/releases/tag/v3.3.0
+[3.5.0]: https://github.com/lingxiaoyiyu-hub/WritingStudio/releases/tag/v3.5.0
+[3.3.0]: https://github.com/lingxiaoyiyu-hub/WritingStudio/releases/tag/v3.3.0

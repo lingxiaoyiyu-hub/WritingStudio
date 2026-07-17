@@ -1,8 +1,8 @@
-blank_issues_enabled: false
+﻿blank_issues_enabled: false
 contact_links:
   - name: 使用交流 / 提问
-    url: https://github.com/lingxiaoyiyu-hub/WritingStudio-3.5.0/discussions
+    url: https://github.com/lingxiaoyiyu-hub/WritingStudio/discussions
     about: 关于软件使用方法、写作流程、模型选择的讨论，请到 Discussions 区
   - name: 安全漏洞报告
-    url: https://github.com/lingxiaoyiyu-hub/WritingStudio-3.5.0/security
+    url: https://github.com/lingxiaoyiyu-hub/WritingStudio/security
     about: 安全相关问题请按 SECURITY.md 流程私下报告，不要在 Issue 公开讨论

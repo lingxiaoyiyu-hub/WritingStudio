@@ -1,4 +1,4 @@
-# 贡献指南
+﻿# 贡献指南
 
 首先感谢你对 WritingStudio 的关注和贡献！
 
@@ -23,7 +23,7 @@
 
 ## 🐛 提交 Bug 反馈
 
-如果你发现了 Bug，请通过 [Issues](https://github.com/lingxiaoyiyu-hub/WritingStudio-3.5.0/issues/new?template=bug_report.yml) 提交，并使用 Bug 报告模板。
+如果你发现了 Bug，请通过 [Issues](https://github.com/lingxiaoyiyu-hub/WritingStudio/issues/new?template=bug_report.yml) 提交，并使用 Bug 报告模板。
 
 为了帮助我们快速定位问题，请尽量提供：
 
@@ -39,7 +39,7 @@
 
 ## 💡 提交功能建议
 
-有好的想法？欢迎通过 [Issues](https://github.com/lingxiaoyiyu-hub/WritingStudio-3.5.0/issues/new?template=feature_request.yml) 提交功能建议。
+有好的想法？欢迎通过 [Issues](https://github.com/lingxiaoyiyu-hub/WritingStudio/issues/new?template=feature_request.yml) 提交功能建议。
 
 好的功能建议通常包含：
 
@@ -89,6 +89,6 @@
 
 ## ❓ 有问题？
 
-如果你对贡献方式有疑问，欢迎在 [Discussions](https://github.com/lingxiaoyiyu-hub/WritingStudio-3.5.0/discussions) 中提问。
+如果你对贡献方式有疑问，欢迎在 [Discussions](https://github.com/lingxiaoyiyu-hub/WritingStudio/discussions) 中提问。
 
 再次感谢你的贡献！💖

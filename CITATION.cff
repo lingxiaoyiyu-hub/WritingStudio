@@ -1,4 +1,4 @@
-cff-version: 1.2.0
+﻿cff-version: 1.2.0
 message: "如果你引用了这个软件，请使用以下信息。"
 title: "WritingStudio - 面向中文长篇小说的本地 AI 写作工作台"
 abstract: "WritingStudio 是一款面向中文长篇小说创作的本地 AI 写作工作台，支持大纲推演、章节续写、角色管理、质检润色等功能，也支持自媒体文章创作。"
@@ -7,8 +7,8 @@ authors:
   - given-names: "XIAOCheng"
     family-names: "lingxiaoyiyu"
     alias: "lingxiaoyiyu-hub"
-repository-code: "https://github.com/lingxiaoyiyu-hub/WritingStudio-3.5.0"
-url: "https://github.com/lingxiaoyiyu-hub/WritingStudio-3.5.0"
+repository-code: "https://github.com/lingxiaoyiyu-hub/WritingStudio"
+url: "https://github.com/lingxiaoyiyu-hub/WritingStudio"
 license: MIT
 keywords:
   - writing

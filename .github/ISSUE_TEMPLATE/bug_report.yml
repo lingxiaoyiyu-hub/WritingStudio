@@ -1,4 +1,4 @@
-name: Bug 报告
+﻿name: Bug 报告
 description: 报告 WritingStudio 使用过程中遇到的问题
 title: "[Bug] "
 labels: ["bug", "needs-triage"]
@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         感谢你反馈问题！请尽量填写完整以下信息，便于我们快速定位和修复。
-        在提交前，请先在 [Issues 列表](https://github.com/lingxiaoyiyu-hub/WritingStudio-3.5.0/issues) 中搜索是否已有相同问题。
+        在提交前，请先在 [Issues 列表](https://github.com/lingxiaoyiyu-hub/WritingStudio/issues) 中搜索是否已有相同问题。
 
   - type: input
     id: version
