@@ -1,0 +1,62 @@
+name: 功能建议
+description: 为 WritingStudio 提出新的功能想法或改进建议
+title: "[Feature] "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你提出建议！请描述清楚你的需求与场景。
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 你的需求 / 痛点
+      description: 你想解决什么问题？为什么现有功能无法满足？
+      placeholder: "在写长篇时，章节摘要需要手动整理，希望能……"
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: 期望的方案
+      description: 你希望软件怎么帮你做
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 你考虑过的替代方案
+      description: 其他可接受的方案，或现有工具的做法
+    validations:
+      required: false
+
+  - type: dropdown
+    id: module
+    attributes:
+      label: 涉及模块
+      multiple: true
+      options:
+        - 小说项目管理
+        - 大纲推演
+        - 章节正文创作
+        - 章节摘要与上下文
+        - 角色管理
+        - AI 润色与定稿
+        - 钩子与爽点辅助
+        - 质检工具
+        - 自媒体写作
+        - 模型配置
+        - 其他
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 确认事项
+      options:
+        - label: 我已搜索过现有 Issues，未发现相同建议
+          required: true

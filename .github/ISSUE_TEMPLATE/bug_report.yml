@@ -1,0 +1,92 @@
+name: Bug 报告
+description: 报告 WritingStudio 使用过程中遇到的问题
+title: "[Bug] "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你反馈问题！请尽量填写完整以下信息，便于我们快速定位和修复。
+        在提交前，请先在 [Issues 列表](https://github.com/lingxiaoyiyu-hub/WritingStudio-3.5.0/issues) 中搜索是否已有相同问题。
+
+  - type: input
+    id: version
+    attributes:
+      label: 软件版本
+      description: 在软件"关于"页面可查看版本号
+      placeholder: "3.5.0"
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: 操作系统
+      placeholder: "Windows 11 / macOS 14 / Ubuntu 22.04"
+    validations:
+      required: true
+
+  - type: input
+    id: model
+    attributes:
+      label: 使用的模型 / 接口
+      description: 如使用 OpenAI、DeepSeek、智谱、通义等，请填写模型名称
+      placeholder: "gpt-4o / deepseek-chat / glm-4.6"
+    validations:
+      required: false
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 问题描述
+      description: 清晰描述遇到了什么问题
+      placeholder: "执行大纲续写时，章节内容生成到一半卡住……"
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: 复现步骤
+      description: 详细步骤，便于我们重现问题
+      placeholder: |
+        1. 打开程序
+        2. 进入某小说项目
+        3. 点击……
+        4. 出现……
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望行为
+      description: 你认为应该发生什么
+    validations:
+      required: false
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际行为
+      description: 实际发生了什么，如有报错请贴出完整报错文本
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 日志 / 截图
+      description: 如有日志或截图，请贴出。注意：请遮蔽其中的 API Key 等敏感信息
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 确认事项
+      options:
+        - label: 我已搜索过现有 Issues，未发现相同问题
+          required: true
+        - label: 我已在日志/截图中隐藏了 API Key 等敏感信息
+          required: true
