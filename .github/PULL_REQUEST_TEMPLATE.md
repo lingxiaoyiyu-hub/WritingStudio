@@ -23,7 +23,7 @@
 
 ## 自检清单
 
-- [ ] 已阅读 [README](README.md) 与 [CHANGELOG](CHANGELOG.md)
+- [ ] 已阅读 [README](../README.md) 与 [CHANGELOG](../CHANGELOG.md)
 - [ ] 修改内容不涉及源码（本仓库不含源码）
 - [ ] 已检查链接、图片路径正确
 - [ ] 已确认未泄露 API Key 等敏感信息

@@ -3,8 +3,14 @@ name: Check Links
 on:
   push:
     branches: [main]
+    paths:
+      - '**/*.md'
+      - '.github/workflows/check-links.yml'
   pull_request:
     branches: [main]
+    paths:
+      - '**/*.md'
+      - '.github/workflows/check-links.yml'
   schedule:
     - cron: '0 0 * * 0'
 
@@ -15,9 +21,21 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Check Links
-        uses: lycheeverse/lychee-action@v1
+        uses: lycheeverse/lychee-action@v2
         with:
-          args: --verbose --no-progress './**/*.md'
+          # 排除：
+          # - platform.openai.com / platform.deepseek.com：对 GitHub IP 返回 403
+          # - stargazers / watchers：仓库无 Star 时返回 404，非真实链接错误
+          # - discussions：已启用但 lychee 可能因权限报错，保留链接
+          args: >-
+            --verbose --no-progress
+            --exclude 'platform.openai.com'
+            --exclude 'platform.deepseek.com'
+            --exclude '/stargazers'
+            --exclude '/watchers'
+            --exclude '/discussions'
+            --max-concurrency 16
+            './**/*.md'
           fail: true
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

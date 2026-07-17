@@ -56,5 +56,5 @@
 
 完整版本列表请见 [Releases](https://github.com/lingxiaoyiyu-hub/WritingStudio/releases)。
 
-[3.5.0]: https://github.com/lingxiaoyiyu-hub/WritingStudio/releases/tag/v3.5.0
+[3.5.0]: https://github.com/lingxiaoyiyu-hub/WritingStudio/releases
 [3.3.0]: https://github.com/lingxiaoyiyu-hub/WritingStudio/releases/tag/v3.3.0
