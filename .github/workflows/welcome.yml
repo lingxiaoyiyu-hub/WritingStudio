@@ -15,7 +15,7 @@ jobs:
     steps:
       - name: Welcome for PR
         if: github.event_name == 'pull_request'
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         with:
           script: |
             await github.rest.issues.createComment({
@@ -35,7 +35,7 @@ jobs:
 
       - name: Welcome for Issue
         if: github.event_name == 'issues'
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         with:
           script: |
             // 仅对首次提 Issue 的用户欢迎
