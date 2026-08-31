@@ -1,0 +1,5 @@
+{
+  "version": "3.5.1",
+  "setup_url": "https://github.com/lingxiaoyiyu-hub/WritingStudio/releases/download/v3.5.1/WritingStudio_Setup_v3.5.1.exe",
+  "release_notes": "新增远程自动更新：启动时自动检测新版本，一键下载静默覆盖安装。"
+}
