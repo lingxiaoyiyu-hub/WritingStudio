@@ -1,4 +1,4 @@
-﻿# 使用指南
+# 使用指南
 
 本文档介绍 WritingStudio 的基本使用方法和最佳实践。
 
@@ -19,9 +19,10 @@
 
 ### 安装与启动
 
-1. 从 [Releases](https://github.com/lingxiaoyiyu-hub/WritingStudio/releases) 下载最新版本
-2. 解压到本地任意文件夹
-3. 双击运行程序
+1. 从 [Releases](https://github.com/lingxiaoyiyu-hub/WritingStudio/releases) 下载最新版本：
+   - **一键安装版**（推荐）：`WritingStudio_Setup_v3.5.0.exe`，双击按向导安装
+   - **便携版**：`WritingStudio_v3.5.0.zip`，解压到本地任意文件夹后直接运行
+2. 安装完成后，双击启动程序
 
 ### 初始配置
 

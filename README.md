@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 <img src="docs/logo.svg" alt="WritingStudio Logo" width="120" height="120">
 
@@ -158,17 +158,34 @@ WritingStudio 不是"一键生成一段文字"的玩具工具，而是为长篇�
 
 请前往 [Releases 页面](https://github.com/lingxiaoyiyu-hub/WritingStudio/releases) 下载最新版本：
 
-- `WritingStudio3.5.0.zip` —— 当前发行版安装包
+- `WritingStudio_Setup_v3.5.0.exe` —— 一键安装版（推荐，无需解压）
+- `WritingStudio_v3.5.0.zip` —— 便携免安装版（解压即用）
 
-### 安装步骤
+### 安装步骤（一键安装版）
 
-1. 下载 `WritingStudio3.5.0.zip`
-2. 解压到本地任意文件夹
-3. 双击启动程序
+1. 下载 `WritingStudio_Setup_v3.5.0.exe`
+2. 双击运行，按向导完成安装（无需管理员权限）
+3. 从桌面或开始菜单启动 WritingStudio
 4. 在**模型配置**中填入自己的模型接口（支持 OpenAI 兼容协议）
 5. 回到首页，选择 **AI 创意写作** 或 **自媒体写作** 即可开始
 
+> 💡 **便携版**：下载 `WritingStudio_v3.5.0.zip`，解压到任意文件夹后双击 `WritingStudio.exe` 即可。
+>
 > 💡 **首次使用建议**：先在模型配置中确认 API Key 与模型名称无误，再开始正式写作。
+
+---
+
+## 🔐 激活与授权
+
+WritingStudio 提供免费试用；如需长期无限制使用，请购买授权套餐：
+
+| 套餐 | 时长 | 价格 |
+| :--- | :--- | :--- |
+| 7 天体验卡 | 7 天 | ￥38 |
+| 月卡 | 30 天 | ￥98 |
+| 永久版 | 永久 | ￥188 |
+
+**领取方式**：在软件的激活弹窗中，使用「添加微信」二维码添加开发者，发送你的机器码并付款后领取卡密；也可通过 QQ：574719738 联系。
 
 ---
 
